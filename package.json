@@ -1,0 +1,12 @@
+{
+  "name": "typeorm-gen",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "generate": "typeorm-model-generator -h localhost -u root -x 1234 -d nest_demo -e mysql -o ./dist"
+  },
+  "dependencies": {
+    "typeorm-model-generator": "^0.4.2"
+  }
+}
